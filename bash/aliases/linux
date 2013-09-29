@@ -1,0 +1,4 @@
+# Linux-specific alias definitions
+
+alias ls='ls -Fht --color=auto --group-directories-first'
+alias o='gnome-open . &'

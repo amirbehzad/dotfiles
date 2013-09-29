@@ -1,0 +1,5 @@
+# MacOSX-specific alias definitions
+
+alias ls='ls -GFht'
+alias o='open . &'
+
