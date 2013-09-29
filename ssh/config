@@ -1,0 +1,7 @@
+#Host hostname
+#IdentityFile path/to/private/key
+
+Host *
+  ServerAliveInterval 600
+  Compression Yes
+  CompressionLevel 7
