@@ -10,6 +10,7 @@ alias w='wget -c'
 alias v='vim'
 alias ps?='ps auxf | grep'
 alias k='kill -9'
+alias m='mysql -A'
 alias ..='cd ..'
 
 # yeah, i miss dos :p
