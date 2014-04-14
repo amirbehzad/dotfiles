@@ -1,4 +1,4 @@
-# libedit settings to be used for mysql terminal monitor
+# libedit settings to influence mysql terminal monitor
 # @see: http://docs.oracle.com/cd/E17952_01/refman-5.6-en/mysql-tips.html
 bind "^W" ed-delete-prev-word
 bind "^U" vi-kill-line-prev
