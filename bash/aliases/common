@@ -10,14 +10,17 @@ alias w='wget -c'
 alias v='vim'
 alias ps?='ps auxf | grep'
 alias k='kill -9'
-alias m='mysql -A'
 alias ..='cd ..'
 
-# yeah, i miss dos :p
+# ms-dos memorial
 alias cls='clear'
 
 # typo handling
 alias got='git'
 
-alias serveme='python -m SimpleHTTPServer'
+# depend on ~/.my.cnf
+alias m='mysql -A'
+alias mo='watch --interval=1 --differences \'mysql -e "SHOW PROCESSLIST"\''
 
+alias mem='free -m'
+alias serveme='python -m SimpleHTTPServer'
