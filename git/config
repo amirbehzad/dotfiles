@@ -1,5 +1,5 @@
 [user]
-    name = Amirbehzad Eslami
+    name = Amirbehzad (Behzad) Eslami
 
 [color]
     ui = auto
@@ -9,10 +9,32 @@
     s = status --short --branch
     l = log --oneline --decorate
     unstage = reset
+    amend = commit --amend
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
 
 [core]
-    pager = less -r
     excludesfile = ~/.gitignore
+    pager = diff-so-fancy | less --tabs=4 -RFX
 
 [push]
     default = current
+
+[color]
+    ui = auto
+    interactive = auto
+    diff = auto
+    branch = auto
+    status = auto
+
+[commit]
+    verbose = true
+
+[advice]
+    statusHints = true
+    pushNonFastForward = false
+
+[log]
+    decorate = short
+
+[format]
+    numbered = auto
