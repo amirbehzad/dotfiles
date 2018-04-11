@@ -5,12 +5,21 @@
     ui = auto
 
 [alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    lg = log -p
+    who = shortlog -s --
     p = push -u origin HEAD
     s = status --short --branch
     l = log --oneline --decorate
     unstage = reset
     amend = commit --amend
     tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    undoi = reset --hard
 
 [core]
     excludesfile = ~/.gitignore
