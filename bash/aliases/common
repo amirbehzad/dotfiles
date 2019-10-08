@@ -24,3 +24,4 @@ alias mo='watch --interval=1 --differences \'mysql -e "SHOW PROCESSLIST"\''
 
 alias mem='free -m'
 alias serveme='python -m SimpleHTTPServer'
+alias ipython="python3 -m IPython"

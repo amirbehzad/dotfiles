@@ -1,13 +1,49 @@
 [user]
-	name = AmirBehzad Eslami
-	email = behzad.eslami@gmail.com
+    name = Amirbehzad (Behzad) Eslami
 
 [color]
-	ui = auto
+    ui = auto
 
 [alias]
-	rebaseme = rebase -p HEAD@{u}
-	pushme = push -u origin HEAD
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dc = diff --cached
+    lg = log -p
+    who = shortlog -s --
+    p = push -u origin HEAD
+    s = status --short --branch
+    l = log --oneline --decorate
+    unstage = reset
+    amend = commit --amend
+    tree = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    undoi = reset --hard
 
 [core]
-	pager = less -r
+    excludesfile = ~/.gitignore
+    pager = diff-so-fancy | less --tabs=4 -RFX
+
+[push]
+    default = current
+
+[color]
+    ui = auto
+    interactive = auto
+    diff = auto
+    branch = auto
+    status = auto
+
+[commit]
+    verbose = true
+
+[advice]
+    statusHints = true
+    pushNonFastForward = false
+
+[log]
+    decorate = short
+
+[format]
+    numbered = auto
