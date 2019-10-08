@@ -1,5 +1,6 @@
 # MacOSX-specific alias definitions
 
-alias ls='ls -GFht'
+#alias ls='ls -GFht'
 alias o='open . &'
+alias ll='gls -Flh --group-directories-first --color'
 
